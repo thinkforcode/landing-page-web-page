@@ -1,0 +1,345 @@
+/*style navigation bar here*/
+
+.navbar{
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: 'Pt Sans Narrow' ,Arial ,sans-serif;
+	font-weight: 700;
+}
+
+
+
+.navbar a{
+	color: #fff !important;
+	opacity: 0.8;
+}
+
+.navbar a:hover{
+	opacity: 1;
+	background-color: red !important;
+}
+
+
+/*HEADER STYLE HERE*/
+.header{
+	height: 600px;
+	width: 100%
+	padding 30px 0px 30px;
+	background-image: url("../images/back1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.header img{
+	height: 350px;
+	width: 450px;
+	margin:70px 0  0 40px;
+}
+
+.header h1{
+	font-size: 48px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.header h1,
+.header p,
+.header button{
+	margin-left: 20px;
+}
+
+.header .btn{
+	border-radius: 0;
+	margin: 40px 20px;
+}
+
+
+
+/*media queary for header*/
+
+@media(max-width: 768px){
+
+	.header{
+		padding: 30px;
+		height:750px;
+
+	}
+
+	.header img{
+		width: 90%;
+		height: 350px;
+		margin:20px 0 0 28px;
+	}
+
+	.header .btn{
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+   .header h1{
+   	font-size: 20px
+   }
+
+   .header p{
+   	font-size: 10px;
+   }
+
+}
+
+/*STYLE SERVICES HERE*/
+
+.service{
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+.service h2,
+.service h4{
+	color: #4c4c4c;
+	margin:20px 0 20px;
+}
+
+.service p{
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 48px;
+}
+
+.service i {
+  
+   width: 80px;
+   height: 80px;
+   font-size: 38px;
+   padding:25px 20px;
+   border-radius: 50%;
+   background-color: #6699cc;
+   color: #fff;
+
+}
+
+
+/*media query for services*/
+
+@media(max-width:768px){
+
+.service{
+	padding:36px;
+}
+
+}
+
+/*styles for pricing here*/
+.pricing{
+	padding:50px 0 80px;
+	text-align: center;
+	background-color: #3399ff;
+
+}
+
+.pricing h2,
+.pricing p{
+	color: #fff;
+}
+
+.pricing p{
+	padding-bottom: 48px;
+}
+
+.pricing .packages{
+	padding: 30px;
+	border:1px solid #ccc;
+	color: #737373;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top:30px;
+
+}
+
+.packages li{
+	display: block;
+	padding: 5px;
+}
+
+.packages h4,
+.packages b,
+.packages h1{
+	color: #4c4c4c;
+}
+
+.packages p,
+.packages li{
+	color: #737373;
+}
+
+
+.packages .button{
+	margin-top: 30px;
+}
+
+.packages button{
+	margin-top: 10px;
+}
+
+
+/*styles for Teamsection here*/
+
+.team{
+	padding: 50px 0px 80px;
+	text-align: center;
+}
+
+.team b,
+.team h2,
+.team h4{
+	margin: 20px 0px 20px;
+	color: #4c4c4c;
+
+}
+
+.team p{
+	color: #737373;
+}
+
+.team img{
+	height: 150px;
+	width: 150px;
+	margin-top: 50px;
+}
+
+
+.team i{
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	background-color: #a0db8e;
+	color: #fff;
+
+}
+
+.team a:hover i{
+	color: blue;
+
+}
+
+
+/*clinet section style here*/
+
+.clients{
+	text-align: center;
+    padding:50px 0 80px;
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.clients h2{
+	color: #5e5e5e;
+}
+
+.clients p{
+	padding-bottom: 48px;
+}
+
+.clients img{
+	width: 200px;
+	opacity: 0.6;
+	cursor: pointer;
+	margin:40px 0;
+	transition: all 500ms ease-in-out;
+	height: 200px;
+}
+
+.clients li:hover img{
+	opacity: 1;
+}
+
+.contacts{
+	padding:50px 0 80px;
+	text-align: center;
+}
+
+.contacts h2{
+	color: #4c4c4c;
+	margin:20px 0 20px;
+
+}
+
+.contacts p{
+	color: #737373;
+	margin-bottom: 80px;
+}
+
+.contacts .input-group{
+	margin-bottom: 25px;
+}
+
+.contacts .form-control{
+	border-radius: 0 !important;
+
+}
+
+.contacts span{
+	border-radius: 0 !important;
+}
+
+.contacts .btn{
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #f08080;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.contacts .btn:hover{
+	background-color: #a85959 !important;
+	color: #fff !important;
+}
+
+
+/*footer styles here*/
+
+.footer{
+	padding:30px;
+	color: white;
+	background-color:	#222222;
+}
+
+.footer .social{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding:5px;
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	margin-right: 5px; 
+
+}
+
+.footer input{
+	height: 40px;
+	/*width: 160px;*/
+	padding:5px;
+	border:none;
+	background-color: #cccccc;
+	color:#000;
+	margin-top: 10px;
+}
+
+.footer .btn{
+	padding:10px 5px 10px;
+	margin:-3px 0 0 5px;
+}
+
+/*.footer h4{
+	text-align: center;
+}*/
+/*
+  .social{
+	margin-left: 30px;
+}*/
